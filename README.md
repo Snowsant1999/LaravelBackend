@@ -1,10 +1,13 @@
-This is a simple Laravel backend project. this project include
+# Laravel Backend Project
 
-- Create, Read, Update, Delete
-- Multiauth Users
-- Middleware
-- File upload
+This is a simple Laravel backend project. It includes the following features:
 
-This project is using
-- Laravel 11
-- Mysql
+## Features
+- CRUD operations
+- Multi-auth user support
+- Middleware for route protection
+- File upload handling
+
+## Specification
+- **Laravel** 11
+- **MySQL**
