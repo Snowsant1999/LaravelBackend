@@ -1,6 +1,6 @@
 # Laravel Backend Project
 
-This is a simple Laravel backend project. It includes the following features:
+This is a simple Laravel backend project.
 
 ## Features
 - CRUD operations
