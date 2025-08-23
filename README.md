@@ -5,4 +5,6 @@ This is a simple Laravel backend project. this project include
 - Middleware
 - File upload
 
-This project is using laravel 11
+This project is using
+- Laravel 11
+- Mysql
