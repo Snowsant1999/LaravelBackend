@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\keluhan;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Spatie\PdfToImage\Pdf;
 
 class keluhcontroller extends Controller
 {
@@ -48,6 +49,8 @@ class keluhcontroller extends Controller
                 $lokasi = public_path('images');
                 $file->move($lokasi, $post);
                 $input['file'] = $post;
+
+
             }
 
         $input['user_id'] = auth()->id();
@@ -109,6 +112,12 @@ class keluhcontroller extends Controller
     public function destroy(string $id)
     {
         $siswa = keluhan::find($id);
+
+        $filePath = public_path('images/' . $siswa->file);
+
+        if (file_exists($filePath)) {
+            unlink($filePath);
+        }
 
         $siswa->delete();
 
