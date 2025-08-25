@@ -29,4 +29,5 @@ A simple Laravel backend project with authentication, CRUD functionality, and fi
     <img width="1525" height="714" alt="image" src="https://github.com/user-attachments/assets/fb30eabb-d4bf-4bf7-9147-6fd785ec8fea" />
    
 6. **Student Complaint Details**
-   <img width="1511" height="853" alt="image" src="https://github.com/user-attachments/assets/74a4ff0a-977c-433d-8539-408a9ba55244" />
+   <img width="1500" height="859" alt="image" src="https://github.com/user-attachments/assets/38d08206-789f-44cf-90a9-49ea036d50ef" />
+
