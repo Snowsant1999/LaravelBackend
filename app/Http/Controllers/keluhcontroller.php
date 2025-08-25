@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\keluhan;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use Spatie\PdfToImage\Pdf;
 
 class keluhcontroller extends Controller
 {
