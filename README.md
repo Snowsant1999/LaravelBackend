@@ -1,4 +1,4 @@
-# Laravel Backend Project
+# Student Complaint Website
 
 This website allows students to submit complaints, and teacher to manage and respond to them. It is built with Laravel as the backend framework.
 
