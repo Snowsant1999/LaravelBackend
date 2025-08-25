@@ -1,6 +1,6 @@
 # Laravel Backend Project
 
-A simple Laravel backend project with authentication, CRUD functionality, and file upload handling.
+This website allows students to submit complaints, and teacher to manage and respond to them. It is built with Laravel as the backend framework.
 
 ## Features
 - CRUD operations
